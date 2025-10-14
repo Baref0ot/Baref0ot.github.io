@@ -92,7 +92,7 @@ export default function Hero() {
               <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600 dark:text-blue-400" />
             </motion.div>
             <span className="text-xs sm:text-sm font-medium text-slate-700 dark:text-slate-300">
-              Available for freelance work
+              Always open to new opertunities
             </span>
           </motion.div>
 
@@ -148,8 +148,9 @@ export default function Hero() {
             transition={{ delay: 0.7, duration: 0.6 }}
             className="text-lg sm:text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-10 sm:mb-12 max-w-3xl mx-auto leading-relaxed px-4"
           >
-            I craft elegant digital experiences with clean code and thoughtful
-            design
+            Engineer of resilient, scalable systems—bridging backend mastery in
+            .NET Core and messaging patterns with a consultant’s eye for
+            root‑cause troubleshooting and real‑world impact.
           </motion.p>
 
           {/* CTA Buttons with hover effects */}
@@ -213,10 +214,14 @@ export default function Hero() {
             className="flex justify-center gap-3 sm:gap-4"
           >
             {[
-              { icon: Github, href: "https://github.com", label: "GitHub" },
+              {
+                icon: Github,
+                href: "https://github.com/Baref0ot",
+                label: "GitHub",
+              },
               {
                 icon: Linkedin,
-                href: "https://linkedin.com",
+                href: "https://www.linkedin.com/in/matthew-wright-151348135/",
                 label: "LinkedIn",
               },
               {
