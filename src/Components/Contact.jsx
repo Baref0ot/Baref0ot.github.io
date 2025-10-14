@@ -4,6 +4,7 @@ import { Mail, MapPin, Send, Terminal, Github, Linkedin } from "lucide-react";
 import Button from "../ui/Button";
 import Input from "../ui/Input";
 import Textarea from "../ui/Textarea";
+import { PhoneCall } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = React.useState({
@@ -34,7 +35,7 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-xl text-slate-400 max-w-2xl">
-            Let's discuss your backend architecture needs
+            Let's discuss your software solution's needs!
           </p>
         </motion.div>
 
@@ -128,6 +129,14 @@ export default function Contact() {
               >
                 Mattwrightapproved@yahoo.com
               </a>
+            </div>
+
+            <div className="bg-slate-900 border border-slate-800 rounded-lg p-6">
+              <PhoneCall className="w-8 h-8 text-green-400 mb-4" />
+              <h3 className="font-bold text-white mb-2 font-mono">Phone</h3>
+              <p className="text-sm text-slate-400 hover:text-green-400 transition-colors break-all">
+                +1 (470) 334-8133
+              </p>
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-lg p-6">

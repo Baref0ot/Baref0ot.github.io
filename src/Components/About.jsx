@@ -34,6 +34,7 @@ const techStack = {
   ],
   practices: [
     "Microservices",
+    "Monolithic",
     "REST APIs",
     "WebSockets",
     "Webhooks",
@@ -46,12 +47,32 @@ const techStack = {
 };
 
 const expertise = [
-  { icon: Server, title: "System Design", desc: "Scalable architectures" },
-  { icon: Database, title: "Database Design", desc: "Optimized schemas" },
-  { icon: Cloud, title: "Cloud Services", desc: "AWS, GCP, Azure" },
-  { icon: Shield, title: "Security", desc: "Auth & encryption" },
-  { icon: Zap, title: "Performance", desc: "Low-latency systems" },
-  { icon: GitBranch, title: "DevOps", desc: "CI/CD pipelines" },
+  {
+    icon: Server,
+    title: "System Design",
+    desc: "Scalable Mircorservice and Monolithic architectures",
+  },
+  {
+    icon: Database,
+    title: "Database Design",
+    desc: "Optimized schemas following ACID principles",
+  },
+  { icon: Cloud, title: "Cloud Services", desc: "Microsoft Azure" },
+  {
+    icon: Shield,
+    title: "Security",
+    desc: "Service Authentication, Hash and Salt encryption for data at rest, TLS/SSL for data in transit",
+  },
+  {
+    icon: Zap,
+    title: "Performance",
+    desc: "Low-latency and Fault-tolerant systems",
+  },
+  {
+    icon: GitBranch,
+    title: "DevOps",
+    desc: "Azure DevOps, CI/CD pipelines",
+  },
 ];
 
 export default function About() {
@@ -90,19 +111,27 @@ export default function About() {
                 <span>$ whoami</span>
               </div>
               <p className="text-slate-300 leading-relaxed mb-4">
-                Backend software engineer with 5+ years of experience building
-                high-performance, scalable systems. Specialized in distributed
-                architectures, microservices, and API design.
+                Full-stack software engineer with 8+ years of experience.
+                Skilled in .NET Core, C#, React, scalable APIs, and systems
+                design. Experienced delivering secure, high-performant
+                applications across the full Software Development Life Cycle,
+                with expertise in interoperability methods and deployment to
+                On-prem and Azure hosted environments via Azure App Services and
+                Docker containers. Familiar with MySQL, TSQL, and MongoDB and
+                collaborative practices including peer code reviews and working
+                within automated testing pipelines.
               </p>
               <p className="text-slate-300 leading-relaxed mb-4">
-                I focus on writing clean, maintainable code and designing
-                systems that can handle millions of requests. Passionate about
-                performance optimization, database design, and cloud
-                infrastructure.
+                I've designed, developed, deployed, configured, and
+                collaboratively worked with critical stackholders test clean,
+                maintainable, and resilent systems for mission-critical
+                life-or-death solutions that handle millions of requests for
+                various public safety agencys and 911 Emergency Communication
+                Ceneters accross the US.
               </p>
               <div className="grid grid-cols-3 gap-4 pt-4 border-t border-slate-800">
                 <div>
-                  <div className="text-2xl font-bold text-green-400">5+</div>
+                  <div className="text-2xl font-bold text-green-400">8+</div>
                   <div className="text-xs text-slate-500">Years Exp</div>
                 </div>
                 <div>
