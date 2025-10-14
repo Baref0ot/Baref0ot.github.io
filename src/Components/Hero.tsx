@@ -109,7 +109,7 @@ export default function Hero() {
               transition={{ delay: 0.3, duration: 0.6, type: "spring" }}
               className="block text-slate-900 dark:text-white mb-2"
             >
-              Creative
+              Matthew Wright
             </motion.span>
             <motion.span
               initial={{ opacity: 0, y: 30 }}
@@ -131,7 +131,7 @@ export default function Hero() {
                   backgroundSize: "200% 200%",
                 }}
               >
-                Developer
+                Backend Developer
               </motion.span>
               <motion.div
                 className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 rounded-full"
@@ -148,9 +148,8 @@ export default function Hero() {
             transition={{ delay: 0.7, duration: 0.6 }}
             className="text-lg sm:text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-10 sm:mb-12 max-w-3xl mx-auto leading-relaxed px-4"
           >
-            Engineer of resilient, scalable systems—bridging backend mastery in
-            .NET Core and messaging patterns with a consultant’s eye for
-            root‑cause troubleshooting and real‑world impact.
+            Engineering resilient mission-critical systems that cannot afford to
+            fail.
           </motion.p>
 
           {/* CTA Buttons with hover effects */}
