@@ -100,9 +100,9 @@ export default function Hero() {
               transition={{ delay: 0.5 }}
               className="text-lg text-slate-400 mb-8 leading-relaxed"
             >
-              Building scalable systems and robust mission-critical APIs.
-              Specializing in distributed architectures, microservices, and
-              high-performance backend solutions.
+              Building scalable and robust services for mission-critical
+              solutions. Specializing in distributed architectures,
+              microservices, and high-performance backend solutions.
             </motion.p>
 
             <motion.div
@@ -183,7 +183,7 @@ export default function Hero() {
               <div className="p-6 font-mono text-sm">
                 <div className="space-y-2">
                   <div className="text-slate-500">
-                    <span className="text-green-400">$</span> cat skills.json
+                    <span className="text-green-400">$</span> skills.json
                   </div>
                   <motion.div
                     initial={{ opacity: 0 }}
@@ -194,27 +194,30 @@ export default function Hero() {
                     <div className="text-slate-500">{"{"}</div>
                     <div className="ml-4">
                       <span className="text-blue-400">"languages"</span>: [
-                      <span className="text-orange-400">"Python"</span>,
-                      <span className="text-orange-400">"Go"</span>,
-                      <span className="text-orange-400">"Java"</span>],
+                      <span className="text-orange-400">"C#"</span>,
+                      <span className="text-orange-400">"HTML"</span>,
+                      <span className="text-orange-400">"CSS"</span>,
+                      <span className="text-orange-400">"Javascript"</span>],
                     </div>
                     <div className="ml-4">
                       <span className="text-blue-400">"databases"</span>: [
+                      <span className="text-orange-400">"SQL Server"</span>,
                       <span className="text-orange-400">"PostgreSQL"</span>,
                       <span className="text-orange-400">"MongoDB"</span>,
                       <span className="text-orange-400">"Redis"</span>],
                     </div>
                     <div className="ml-4">
                       <span className="text-blue-400">"frameworks"</span>: [
-                      <span className="text-orange-400">"Django"</span>,
-                      <span className="text-orange-400">"FastAPI"</span>,
-                      <span className="text-orange-400">"Spring Boot"</span>],
+                      <span className="text-orange-400">".NET Core"</span>,
+                      <span className="text-orange-400">"Entity Framework Core"</span>,
+                      <span className="text-orange-400">"React"</span>],
                     </div>
                     <div className="ml-4">
                       <span className="text-blue-400">"tools"</span>: [
                       <span className="text-orange-400">"Docker"</span>,
-                      <span className="text-orange-400">"Kubernetes"</span>,
-                      <span className="text-orange-400">"AWS"</span>]
+                      <span className="text-orange-400">"RabbitMQ"</span>,
+                      <span className="text-orange-400">"Postman"</span>,
+                      <span className="text-orange-400">"Azure"</span>]
                     </div>
                     <div className="text-slate-500">{"}"}</div>
                   </motion.div>

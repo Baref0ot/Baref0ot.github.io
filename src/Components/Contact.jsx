@@ -132,14 +132,6 @@ export default function Contact() {
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-lg p-6">
-              <PhoneCall className="w-8 h-8 text-green-400 mb-4" />
-              <h3 className="font-bold text-white mb-2 font-mono">Phone</h3>
-              <p className="text-sm text-slate-400 hover:text-green-400 transition-colors break-all">
-                +1 (470) 334-8133
-              </p>
-            </div>
-
-            <div className="bg-slate-900 border border-slate-800 rounded-lg p-6">
               <MapPin className="w-8 h-8 text-green-400 mb-4" />
               <h3 className="font-bold text-white mb-2 font-mono">Location</h3>
               <p className="text-sm text-slate-400">Atlanta, GA, USA</p>
