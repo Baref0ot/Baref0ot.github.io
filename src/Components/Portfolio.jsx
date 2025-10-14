@@ -1,4 +1,4 @@
-//import React from "react";
+import React from "react";
 import { useQuery } from "@tanstack/react-query";
 //import { base44 } from "@/api/base44Client";
 import Hero from "./Hero";
@@ -8,6 +8,14 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 export default function Portfolio() {
+  /* 
+    const { data: projects, isLoading } = useQuery({
+    queryKey: ["projects"],
+    queryFn: () => base44.entities.Project.list("-order"),
+    initialData: [],
+  });
+  */
+
   const projectData = [
     {
       id: 1,
@@ -31,34 +39,32 @@ export default function Portfolio() {
     // add more projects here
   ];
 
-  // const { data: projects = [], isLoading } = useQuery({
-  //   queryKey: ["projects"],
-  //   queryFn: () => base44.entities.Project.list("-order"),
-  //   initialData: [],
-  // });
-
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-900 transition-colors duration-300">
+    <div className="min-h-screen bg-slate-950">
       <style>{`
-        /* Hide scrollbar for Chrome, Safari and Opera */
+        /* Hide scrollbar */
         ::-webkit-scrollbar {
           display: none;
         }
         
-        /* Hide scrollbar for IE, Edge and Firefox */
         * {
           -ms-overflow-style: none;
           scrollbar-width: none;
         }
         
-        /* Ensure smooth scrolling */
         html {
           scroll-behavior: smooth;
         }
+
+        /* Custom selection color */
+        ::selection {
+          background-color: rgb(34, 197, 94);
+          color: rgb(2, 6, 23);
+        }
       `}</style>
       <Hero />
-      <Projects projects={projectData} />
       <About />
+      <Projects projects={projectData} />
       <Contact />
       <Footer />
     </div>
