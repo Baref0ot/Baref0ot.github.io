@@ -221,7 +221,7 @@ export default function Hero() {
               },
               {
                 icon: Mail,
-                href: "mailto:your.email@example.com",
+                href: "mailto:mattwrightapproved@yahoo.com",
                 label: "Email",
               },
             ].map((social, i) => (
