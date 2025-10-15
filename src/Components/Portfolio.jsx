@@ -21,11 +21,11 @@ export default function Portfolio() {
       id: 1,
       title: "Portfolio Website",
       description:
-        "A personal portfolio built with React, Tailwind, and Framer Motion.",
+        "My developer portfolio site with React, Tailwind, and Framer Motion.",
       featured: true,
       tags: ["React", "Tailwind", "Framer Motion"],
-      image_url: "https://via.placeholder.com/600x400", // or leave null
-      project_url: "https://myportfolio.com",
+      image_url: "https://knowledge.boc-group.com/wp-content/uploads/2019/08/Technology-Portfolio-Management.jpg", // or leave null
+      project_url: "https://baref0ot.github.io/",
     },
     {
       id: 2,
