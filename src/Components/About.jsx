@@ -12,9 +12,10 @@ import {
 } from "lucide-react";
 
 const techStack = {
-  languages: ["C#", "HTML", "CSS", "JavaScript", "Tailwind"],
+  languages: ["C#", "HTML", "CSS", "JavaScript", "Tailwind", "Bootstrap"],
   frameworks: [
     ".NET Core",
+    "Angular",
     "React",
     ".NET Framework",
     "Entity Framework Core",

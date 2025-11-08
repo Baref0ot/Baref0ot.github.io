@@ -208,8 +208,8 @@ export default function Hero() {
                     </div>
                     <div className="ml-4">
                       <span className="text-blue-400">"frameworks"</span>: [
-                      <span className="text-orange-400">".NET Core"</span>,
-                      <span className="text-orange-400">"Entity Framework Core"</span>,
+                      <span className="text-orange-400">".NET"</span>,
+                      <span className="text-orange-400">"Entity Framework"</span>,
                       <span className="text-orange-400">"Angular"</span>,
                       <span className="text-orange-400">"React"</span>],
                     </div>
